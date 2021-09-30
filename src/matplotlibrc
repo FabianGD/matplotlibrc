@@ -2,6 +2,8 @@
 
 # Figure
 figure.figsize: 8.0, 4.5
+figure.titlesize: 13
+figure.titleweight: 500
 
 # Texts
 text.color: 505050

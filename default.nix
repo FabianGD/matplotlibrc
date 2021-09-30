@@ -4,7 +4,7 @@ with pkgs; stdenv.mkDerivation {
   pname = "matplotlibrc";
   version = "1.0.0";
 
-  src = nix-gitignore.gitignoreSource [ ./nix ./README.md ] ./.;
+  src = builtins.path { name = "src"; path = ./src; };
 
   installPhase = ''
     mkdir $out

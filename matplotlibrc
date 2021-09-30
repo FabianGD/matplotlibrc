@@ -1,0 +1,41 @@
+# Custom matplotlib style for plotting
+
+# Figure
+figure.figsize: 8.0, 4.5
+
+# Texts
+text.color: 505050
+
+# Fonts
+font.sans-serif: Cantarell, Roboto, Fira Sans
+font.weight: 500
+
+# Line plots
+lines.linewidth : 2
+lines.markersize : 10
+
+# Axes setup
+axes.xmargin: 0.0
+axes.linewidth: 2
+axes.labelsize: 13
+axes.labelweight: 500
+axes.edgecolor: 505050
+axes.labelcolor: 505050
+axes.prop_cycle: cycler('color', ['1976D2', 'C2185B', '388E3C', 'FFA000', 'E64A19', 'EC407A'])
+# Legend
+legend.frameon: False
+legend.fontsize: small
+
+# Ticks
+xtick.color: 505050
+xtick.labelsize: 14
+xtick.major.width: 2
+xtick.direction: in
+
+ytick.color: 505050
+ytick.labelsize: 14
+ytick.major.width: 2
+ytick.direction: in
+
+# Images
+image.origin: lower

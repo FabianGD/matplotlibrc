@@ -21,7 +21,7 @@ To enable this, use the following example integrations using `niv` in your `shel
 
 ```nix
 let
-  sources = import ./nix/sources.nix
+  sources = import ./nix/sources.nix;
   pkgs = import sources.nixpkgs { };
   matplotlibrc = import sources.matplotlibrc { inherit pkgs; };
 

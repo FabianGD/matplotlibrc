@@ -3,14 +3,14 @@
 # Figure
 figure.figsize: 8.0, 4.5
 figure.titlesize: 13
-figure.titleweight: 500
+figure.titleweight: 400
 
 # Texts
 text.color: 505050
 
 # Fonts
 font.sans-serif: Fira Sans
-font.weight: 500
+font.weight: 400
 
 # Line plots
 lines.linewidth : 2
@@ -20,7 +20,7 @@ lines.markersize : 10
 axes.xmargin: 0.0
 axes.linewidth: 2
 axes.labelsize: 13
-axes.labelweight: 500
+axes.labelweight: 400
 axes.edgecolor: 505050
 axes.labelcolor: 505050
 axes.prop_cycle: cycler('color', ['1976D2', 'C2185B', '388E3C', 'FFA000', 'E64A19', 'EC407A'])

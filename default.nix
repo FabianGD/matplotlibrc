@@ -2,7 +2,7 @@
 
 with pkgs; stdenv.mkDerivation {
   pname = "matplotlibrc";
-  version = "1.0.0";
+  version = "1.1.0";
 
   src = builtins.path { name = "src"; path = ./src; };
 

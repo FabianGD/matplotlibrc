@@ -9,7 +9,7 @@ figure.titleweight: 500
 text.color: 505050
 
 # Fonts
-font.sans-serif: Cantarell, Roboto, Fira Sans
+font.sans-serif: Fira Sans
 font.weight: 500
 
 # Line plots
